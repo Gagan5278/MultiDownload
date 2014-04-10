@@ -1,0 +1,281 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE3DB59418F67C5E00A0F402 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3DB59318F67C5E00A0F402 /* UIKit.framework */; };
+		CE3DB59618F67C5E00A0F402 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3DB59518F67C5E00A0F402 /* Foundation.framework */; };
+		CE3DB59818F67C5E00A0F402 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE3DB59718F67C5E00A0F402 /* CoreGraphics.framework */; };
+		CE3DB59E18F67C5E00A0F402 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CE3DB59C18F67C5E00A0F402 /* InfoPlist.strings */; };
+		CE3DB5A018F67C5E00A0F402 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3DB59F18F67C5E00A0F402 /* main.m */; };
+		CE3DB5A418F67C5E00A0F402 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3DB5A318F67C5E00A0F402 /* AppDelegate.m */; };
+		CE3DB5A718F67C5E00A0F402 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE3DB5A618F67C5E00A0F402 /* ViewController.m */; };
+		CE3DB5AA18F67C5E00A0F402 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = CE3DB5A818F67C5E00A0F402 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CE3DB58F18F67C5E00A0F402 /* MultiDiwnload.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiDiwnload.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CE3DB59318F67C5E00A0F402 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		CE3DB59518F67C5E00A0F402 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CE3DB59718F67C5E00A0F402 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		CE3DB59B18F67C5E00A0F402 /* MultiDiwnload-Info.plist */ = {isa = PBXFileReference; path = "MultiDiwnload-Info.plist"; sourceTree = "<group>"; };
+		CE3DB59D18F67C5E00A0F402 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CE3DB59F18F67C5E00A0F402 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CE3DB5A118F67C5E00A0F402 /* MultiDiwnload-Prefix.pch */ = {isa = PBXFileReference; path = "MultiDiwnload-Prefix.pch"; sourceTree = "<group>"; };
+		CE3DB5A218F67C5E00A0F402 /* AppDelegate.h */ = {isa = PBXFileReference; path = AppDelegate.h; sourceTree = "<group>"; };
+		CE3DB5A318F67C5E00A0F402 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CE3DB5A518F67C5E00A0F402 /* ViewController.h */ = {isa = PBXFileReference; path = ViewController.h; sourceTree = "<group>"; };
+		CE3DB5A618F67C5E00A0F402 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CE3DB5A918F67C5E00A0F402 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CE3DB58C18F67C5E00A0F402 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3DB59418F67C5E00A0F402 /* UIKit.framework in Frameworks */,
+				CE3DB59618F67C5E00A0F402 /* Foundation.framework in Frameworks */,
+				CE3DB59818F67C5E00A0F402 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CE3DB58418F67C5E00A0F402 = {
+			isa = PBXGroup;
+			children = (
+				CE3DB59918F67C5E00A0F402 /* MultiDiwnload */,
+				CE3DB59218F67C5E00A0F402 /* Frameworks */,
+				CE3DB59018F67C5E00A0F402 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CE3DB59018F67C5E00A0F402 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CE3DB58F18F67C5E00A0F402 /* MultiDiwnload.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CE3DB59218F67C5E00A0F402 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CE3DB59318F67C5E00A0F402 /* UIKit.framework */,
+				CE3DB59518F67C5E00A0F402 /* Foundation.framework */,
+				CE3DB59718F67C5E00A0F402 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE3DB59918F67C5E00A0F402 /* MultiDiwnload */ = {
+			isa = PBXGroup;
+			children = (
+				CE3DB5A218F67C5E00A0F402 /* AppDelegate.h */,
+				CE3DB5A318F67C5E00A0F402 /* AppDelegate.m */,
+				CE3DB5A518F67C5E00A0F402 /* ViewController.h */,
+				CE3DB5A618F67C5E00A0F402 /* ViewController.m */,
+				CE3DB5A818F67C5E00A0F402 /* ViewController.xib */,
+				CE3DB59A18F67C5E00A0F402 /* Supporting Files */,
+			);
+			path = MultiDiwnload;
+			sourceTree = "<group>";
+		};
+		CE3DB59A18F67C5E00A0F402 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CE3DB59B18F67C5E00A0F402 /* MultiDiwnload-Info.plist */,
+				CE3DB59C18F67C5E00A0F402 /* InfoPlist.strings */,
+				CE3DB59F18F67C5E00A0F402 /* main.m */,
+				CE3DB5A118F67C5E00A0F402 /* MultiDiwnload-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CE3DB58E18F67C5E00A0F402 /* MultiDiwnload */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CE3DB5AD18F67C5E00A0F402 /* Build configuration list for PBXNativeTarget "MultiDiwnload" */;
+			buildPhases = (
+				CE3DB58B18F67C5E00A0F402 /* Sources */,
+				CE3DB58C18F67C5E00A0F402 /* Frameworks */,
+				CE3DB58D18F67C5E00A0F402 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiDiwnload;
+			productName = MultiDiwnload;
+			productReference = CE3DB58F18F67C5E00A0F402 /* MultiDiwnload.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CE3DB58618F67C5E00A0F402 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = CE3DB58918F67C5E00A0F402 /* Build configuration list for PBXProject "MultiDiwnload" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CE3DB58418F67C5E00A0F402;
+			productRefGroup = CE3DB59018F67C5E00A0F402 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CE3DB58E18F67C5E00A0F402 /* MultiDiwnload */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CE3DB58D18F67C5E00A0F402 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3DB59E18F67C5E00A0F402 /* InfoPlist.strings in Resources */,
+				CE3DB5AA18F67C5E00A0F402 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CE3DB58B18F67C5E00A0F402 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE3DB5A018F67C5E00A0F402 /* main.m in Sources */,
+				CE3DB5A418F67C5E00A0F402 /* AppDelegate.m in Sources */,
+				CE3DB5A718F67C5E00A0F402 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		CE3DB59C18F67C5E00A0F402 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE3DB59D18F67C5E00A0F402 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		CE3DB5A818F67C5E00A0F402 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CE3DB5A918F67C5E00A0F402 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CE3DB5AB18F67C5E00A0F402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CE3DB5AC18F67C5E00A0F402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CE3DB5AE18F67C5E00A0F402 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiDiwnload/MultiDiwnload-Prefix.pch";
+				INFOPLIST_FILE = "MultiDiwnload/MultiDiwnload-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		CE3DB5AF18F67C5E00A0F402 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiDiwnload/MultiDiwnload-Prefix.pch";
+				INFOPLIST_FILE = "MultiDiwnload/MultiDiwnload-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CE3DB58918F67C5E00A0F402 /* Build configuration list for PBXProject "MultiDiwnload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3DB5AB18F67C5E00A0F402 /* Debug */,
+				CE3DB5AC18F67C5E00A0F402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CE3DB5AD18F67C5E00A0F402 /* Build configuration list for PBXNativeTarget "MultiDiwnload" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CE3DB5AE18F67C5E00A0F402 /* Debug */,
+				CE3DB5AF18F67C5E00A0F402 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CE3DB58618F67C5E00A0F402 /* Project object */;
+}
