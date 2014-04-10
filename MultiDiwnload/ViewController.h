@@ -7,7 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface ViewController : UIViewController
-
+#import "MultipleDownload.h"
+@interface ViewController : UIViewController<DownloadData>
+@property(nonatomic,retain)NSMutableArray *urlMutableArray;
+@property(nonatomic,retain)MultipleDownload *downloads;
+- (IBAction)StartButtonPessed:(id)sender;
 @end
